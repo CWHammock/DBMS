@@ -1,0 +1,7 @@
+BOOK(book_title,author_name)
+
+(book_title, book_type, publisher)
+
+(book_type, list_price)
+
+(author_name, author_affil)

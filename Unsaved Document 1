@@ -1,0 +1,8 @@
+city 1 supplier
+city 1 code
+supplier many parts
+qty -> p# and s#
+
+first (s#, p#, qty)
+supplier (s#, city,)
+stat (city, status)

@@ -1,0 +1,52 @@
+CS 530 Introduction to Database Systems 1 of 1 
+Homework #0: Introduction 
+Due: before class on Jan. 21, 2016 
+Pick and define 10 key terms from the given list below.
+
+
+1. Database-management system(DBMS) - A database administrator (DBA) directs or performs all activities related to maintaining a successful database environment. Responsibilities include designing, implementing, and maintaining the database system; establishing policies and procedures pertaining to the management, security, maintenance, and use of the database management system; and training employees in database management and use.  
+(http://searchsqlserver.techtarget.com/definition/database-administrator)
+
+2. File-processing systems - A file processing system is a collection of files and programs that access/modify these files. Typically, new files and programs are added over time (by different programmers) as new information needs to be stored and new ways to access information are needed.
+(users.dickinson.edu/~wahlst/378/ch1.pdf)
+
+3. Data inconsistency - different and conflicting versions of the same data exist in a database that is suppose to house individual and unique versions of the data. 
+
+4. Consistency constraints 
+5. Data abstraction 
+6. Instance - The data stored in database at a particular moment of time is called instance of database. Database schema defines the variable declarations in tables that belong to a particular database; the value of these variables at a moment of time is called the instance of that database.
+ (http://beginnersbook.com/2015/04/instance-and-schema-in-dbms/)
+ 
+7. Schema -  Design of a database is called the schema. Schema is of three types: Physical schema, logical schema and view schema. The design of a database at physical level is called physical schema, how the data stored in blocks of storage is described at this level. 
+(beginnersbook.com/2015/04/instance-and-schema-in-dbms/)
+  
+8. Physical data independence 
+9. Data models 
+10. Database languages - A generic term referring to a class of languages used for defining and accessing databases.
+(http://www.encyclopedia.com/doc/1O11-databaselanguage.html)
+
+11. Metadata - Data that serves to provide context or additional information about other data. 
+
+12. Application program - An application program (sometimes shortened to application) is any program designed to perform a specific function directly for the user or, in some cases, for another application program. 
+(http://searchsoftwarequality.techtarget.com/definition/application-program)
+
+13. Normalization - In creating a database, normalization is the process of organizing it into tables in such a way that the results of using the database are always unambiguous and as intended. Normalization may have the effect of duplicating data within the database and often results in the creation of additional tables.
+(http://searchsqlserver.techtarget.com/definition/normalization)
+
+14. Data dictionary - stores metadata about the structure of the database, in particular the schema of the database. (Book)  
+15. Storage manager - Is the component of a database system that provides the interface between low-level data stored in the database and the application programs and queries submitted to the system. (Book) 
+16. Query processor - the level of the dbms responsible for The retrieval of information from a database according to a set of retrieval criteria, the database itself remaining unchanged.
+(http://www.encyclopedia.com/doc/1O11-queryprocessing.html)
+
+17. Transactions 
+18. Two- and three-tier database architectures 
+19. Data mining - Data mining is an interdisciplinary subfield of computer science. It is the computational process of discovering patterns in large data sets ("big data") involving methods at the intersection of artificial intelligence, machine learning, statistics, and database systems.
+(https://en.wikipedia.org/wiki/Data_mining)
+
+20. Database administrator (DBA) - A database administrator (DBA) directs or performs all activities related to maintaining a successful database environment. Responsibilities include designing, implementing, and maintaining the database system; establishing policies and procedures pertaining to the management, security, maintenance, and use of the database management system; and training employees in database management and use.
+(http://searchsqlserver.techtarget.com/definition/database-administrator)
+
+Submission Instructions Submit your solution to the blackboard on or before due date. Good Luck! 
+
+
+

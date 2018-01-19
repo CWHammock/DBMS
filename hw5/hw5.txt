@@ -1,0 +1,78 @@
+NAME	AGE	SALARY
+Michael Miller	62	131072.00
+Susan Martin	39	56990.00
+George Wright	42	41008.00
+Ana Lopez	35	41008.00
+Kenneth Hill	81	41008.00
+Mark Young	34	39910.00
+Karen Scott	70	39910.00
+Luis Hernandez	44	39910.00
+Steven Green	29	39910.00
+Betty Adams	39	39910.00
+Nancy Allen	30	39910.00
+Robert Brown	28	35431.00
+Elizabeth Taylor	27	33055.00
+Richard Jackson	33	32996.00
+Daniel Lee	23	32175.00
+Lisa Walker	38	32175.00
+Trey Phillips	69	32175.00
+Juan Rodriguez	30	32175.00
+Ann Mitchell	23	32175.00
+Charles Harris	24	24998.00
+Rick Carter	38	24998.00
+Margaret Clark	40	24998.00
+Joseph Thompson	26	24998.00
+Christopher Garcia	60	24998.00
+Angela Martinez	31	24998.00
+Maria White	22	24998.00
+DEPARTMENT	EMPLOYEES
+Operations	26
+Production	22
+NAME
+John Williams
+Scott Bell
+Mary Johnson
+Susan Martin
+Gil Richardson
+Matt Nelson
+Barbara Wilson
+Patricia Jones
+Michael Miller
+Donald King
+Edward Baker
+MANAGER_ID	NAME
+287321212	Michael Miller
+578875478	Edward Baker
+NAME	DEPTS_WORKED_IN
+Mary Johnson	2
+Stanley Browne	2
+NAME
+Ana Lopez
+Barbara Wilson
+Betty Adams
+Daniel Evans
+Donald King
+Dorthy Howard
+Dorthy Lewis
+Edward Baker
+Eric Collins
+Gene Edwards
+George Wright
+Gil Richardson
+John Williams
+Karen Scott
+Kenneth Hill
+Louis Jenkins
+Luis Hernandez
+Mark Coleman
+Mark Young
+Mary Johnson
+Mary Johnson
+Michael Miller
+Milo Brooks
+Nancy Allen
+Scott Bell
+Steven Green
+Susan Martin
+HW5cwh.sql
+HW5cwh.sql

@@ -1,0 +1,32 @@
+CS530
+Warren Hammock
+IN CLASS LAB 2
+3/6/16
+
+#question 1
+SELECT DISTINCT customer_name FROM depositor d INNER JOIN borrower b USING (customer_name)
+WHERE d.customer_name = b.customer_name
+ORDER BY customer_name asc;
+   
+#question 2
+SELECT DISTINCT d.customer_name FROM depositor d, account a WHERE d.account_number = a.account_number and branch_name 
+IN (SELECT branch_name	FROM depositor d, account a WHERE d.account_number = a.account_number and
+d.customer_name = 'Hayes');
+
+#question 3
+SELECT DISTINCT d.customer_name FROM account as a, depositor as d WHERE a.account_number = d.account_number
+and a.branch_name = 'Perryridge' and d.customer_name NOT IN (SELECT customer_name FROM loan as l, borrower as b
+WHERE l.loan_number = b.loan_number and branch_name = 'Perryridge');
+
+
+#question 4
+SELECT branch_name FROM branch WHERE assets>some
+(SELECT assets FROM branch WHERE branch_city='Brooklyn');
+
+#question 5
+SELECT c.customer_name, FORMAT(avg(a.balance), 6) as avgbalance FROM depositor as d, account as a, 
+customer as c WHERE d.customer_name = c.customer_name and d.account_number = a.account_number and
+c.customer_city = 'Harrison'
+GROUP BY d.customer_name asc
+HAVING COUNT(DISTINCT a.account_number) > 1;
+

@@ -1,0 +1,13 @@
+CS 530 
+DBMS Project
+
+Topic Selection: DBMS for Service Management System 
+For IT Hardware
+
+Description:
+	The problem that will be addressed with the development of a database is: the Howard County Circuit Court’s not having a maintenance plan for their hardware/software.   Regular service increases the longevity of hardware/software.  The Court has a preexisting database system that helps control the location and age of the current hardware, but does not have the ability to keep track of regularly scheduled maintenance.    The database should be able to work alongside the existing inventory database.   The scheduler will help techs and management increase the lifespan for items, thus decreasing the costs associated with purchasing new hardware due to increased depreciation.  
+
+Scope:      
+	The following is a rough outline of how the DB will work.  The database will be populated with all the hardware items currently serviced by the techs at the Howard County Circuit.  I am using the term “item” and not “hardware,” due to application with software as well.  The items table will be populated using the same item id used for the current inventory DB.  This will allow for ease of reference and possible future integration.   A table for the type of item will have a key to determine the type (printer, pc, scanner…).  This table will help if the DB becomes used for the global application for all inventory.  There will be a table for maintenance schedule.   This will have different schedules dependent upon the type of item it is.    There will be a table populated with all techs employed thru Howard County.  Each tech will use an individual id to differentiate him/her from other techs.  The next table will be used for the work done to different items.  This table should pull from the item, tech, schedule, and work that was done to the item.     There will have to be a table that lists the skill sets needed for the maintenance.   Not all techs are trained in the same type of hardware.  Some of the techs specialize in printers, pc hardware, servers, and others in software.     We will have to match the correct tech with the correct job.     
+
+

@@ -1,0 +1,7 @@
+Assumption for movie database:
+1. There are not two production companies with same name.
+2. There are not two actors/directors born on same day and share same name.
+3. There are not two movies with same name and year released. 
+
+
+

@@ -1,0 +1,30 @@
+Warren Hammock
+CS530 
+Homework 4 
+
+1. 
+(a) 
+It is in 1NF.  1NF is atomic values, no repeating values.  2NF is 1NF and every non-key is fully dependent upon the primary key.  Discount_amt is not fully dependent upon the primary key.  
+   
+CAR_SALE(Car#, Date_sold, Salesman#, Commission%, Discount_amt) PRIMARY KEY (CAR#, SALESMAN#)
+-Date_sold->Discount_amt
+-Salesman#->Commission%
+
+(b) 
+CAR_SALE 0(Car#, Salesman#, Date_sold)
+CAR_SALE 1(Date_sold, Discount_amt)
+CAR_SALE 2(Salesman#, Commission%)
+
+
+2. UNF: (PET_ID, PET_NAME, PET_TYPE, PET_AGE, OWNER, (VISIT_DATE, PROC_NO, PROC_DESC)*)
+(a)
+1NF is to have atomic values (no repeating values).   It is in 1NF.  2NF is 1NF and every non-key is fully dependent upon the primary key. (PROC_desc) is dependent upon (PROC_no), which is not a primary key.  3NF is lack of transative properties.  Therefore, it is in 1NF.
+
+(b) This is Pet Database in 3NF:
+(PET_ID, PET_NAME, PET_TYPE, PET_AGE, OWNER) PRIMARY KEY (PET_ID) (all depend on PET_ID)
+(PET_ID, VISIT_DATE, PROC_NO)(PROC_NO depends on PET_ID and VISIT_DATE)
+(PROC_NO, PROC_DESC) (PROC_DESC depends on PROC_NO)
+
+
+
+
